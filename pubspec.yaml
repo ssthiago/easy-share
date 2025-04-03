@@ -10,6 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  path_provider: ^2.0.15    # Para salvar arquivos no armazenamento do dispositivo
+  screenshot: ^2.1.0        # Para capturar widgets como imagens
+  share_plus: ^7.0.2        # Para compartilhar arquivos
+  pdf: ^3.10.4             # Para gerar PDFs
+  flutter_image_compress: ^1.1.3  # Para otimizar imagens capturadas
 
 dev_dependencies:
   flutter_test:
