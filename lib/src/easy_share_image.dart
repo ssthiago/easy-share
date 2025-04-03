@@ -12,6 +12,7 @@ class EasyShareImage {
 
   static Future<Uint8List?> captureWidgetAsImage(GlobalKey key) async {
     try {
+      await Future.delayed(Duration(milliseconds: 300)); // Aguarda um pouco antes da captura
       RenderRepaintBoundary? boundary =
           key.currentContext?.findRenderObject() as RenderRepaintBoundary?;
       if (boundary == null) return null;
