@@ -1,7 +1,6 @@
 library easy_share;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/easy_share_core.dart';
+export 'src/easy_share_image.dart';
+export 'src/easy_share_pdf.dart';
+export 'src/easy_share_share.dart';
